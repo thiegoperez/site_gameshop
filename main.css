@@ -1,0 +1,148 @@
+* {
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+
+header h1,
+section h2
+section h3 {
+    font-weight: normal;
+}
+
+.social-links img{
+height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+section {
+    color: rgb(0, 0, 60);
+}
+
+header {
+    font-family: 'Bungee', cursive;
+}
+
+section h2,
+section h3,
+form button {
+    font-family: 'Bungee', cursive;
+}
+
+body,
+input,
+textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {   
+padding: 16px 0;
+background-color: rgb(0, 0, 60);
+color: aliceblue;
+}
+
+header li a {
+color: aliceblue;
+text-decoration: none;
+font-size: 16px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brainslist img {
+    height: 24px;
+}
+
+.brainslist li {
+    display: inline;
+    margin-right: 10px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.store-front {
+    margin-right: 32px;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-metods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: rgb(0, 0, 60);
+    color: aliceblue;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: blue;
+}
+
+input:focus, textarea:focus {
+    outline-color: bisque;
+}
+
+footer {
+    padding: 16px;
+background-color: rgb(0, 0, 60);
+color: aliceblue;
+}
